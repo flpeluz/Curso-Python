@@ -21,4 +21,3 @@ print(f"A Margem de lucro foi: {margem:.0%}")
 # para porcentagem:
 # (0) = para não ter casa decimal
 # (%) = para o %
-
