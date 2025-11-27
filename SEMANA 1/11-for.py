@@ -1,25 +1,14 @@
-# -------- ESTRUTURAS DE REPETIÇÃO (LOOPS) ----------
-
-# -------- UNIR LISTAS E FORMATAR ----------
-
-# -------- FOR --------
-
-# nome = ["Felipe", "Patricia", "Miguel", "Theo", "Matheus", "Benjamim", "Guilherme"]
-
-# idade = [37, 33, 10, 4, 12, 6, 11]
-
-# numeros = [1, 2 , 3 , 4, 5, 6, 7, 8, 9, 10]
-
-
-# for nome, idade in zip(nome, idade):
-#     print(f"{nome}: {idade}")
+# -------- FOR ------------
 
 
 
+# for i in range(10): #para quantas vezes o loop vai rodar
+#     print("Loop: Você tá mandando bem demais!")
 
 
 
 # ------ RANGE ----------
+
 
 # Exemplo 1 :
 
@@ -30,6 +19,10 @@
 # for i in range(0, 10):
 #     print(i + 1) # indice + 1 -> para iniciar em 1 
 # print()
+
+for i in range(0, 10):
+    print(f"No {i + 1}º Loop o número é: {i + 1}") # indice + 1 -> para iniciar em 1 
+print()
 
 # for i in range(0, 10, 2): # (inicio, fim, pula)
 #     print (i) # para numeros pares de 2 em 2
@@ -84,7 +77,20 @@
 
 # --------- ZIP -----------
 
+# -------- UNIR LISTAS E FORMATAR ----------
+
+
 # zip -> permite colocar duas listas entre parenteses
+
+# nome = ["Felipe", "Patricia", "Miguel", "Theo", "Matheus", "Benjamim", "Guilherme"]
+
+# idade = [37, 33, 10, 4, 12, 6, 11]
+
+# numeros = [1, 2 , 3 , 4, 5, 6, 7, 8, 9, 10]
+
+
+# for nome, idade in zip(nome, idade):
+#     print(f"{nome}: {idade}")
 
 
 
