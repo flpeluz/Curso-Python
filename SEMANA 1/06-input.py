@@ -1,7 +1,7 @@
 
 # Input texto:
 
-nome = input("Digite aqui seu nome: ")
+nome = input("Digite aqui seu nome completo: ")
 email = input("Digite aqui seu email: ")
 
 posição_nome = nome.find(" ")
@@ -24,7 +24,7 @@ print(f"Enviamos um link de confirmação para o email: {primeira_letra}******{s
 vendas = input("Digite suas vendas: ")
 vendas = float(vendas) * 0.01 # Bonus de 1% = 0,01
 
-print(vendas)
+print(f'Comissão por vendas:', vendas)
 
 
 # *** tenha o cuidado de usar "float" para converter "strings" em numeros decimais
