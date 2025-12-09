@@ -1,37 +1,45 @@
-# ------- FUNÇÕES DEF ------------
+# # ------- FUNÇÕES DEF ------------
 
-# Função -> Bloco de código reutilizável
-# Organização
+# # Função -> Bloco de código reutilizável
+# # Organização
 
-# Como funciona:
-    # def nome_da_funcao(parametros):
-        # instrução1
-        # instrução2
-        # ...
-        # return valor (opcional)
+# # Como funciona:
+#     # def nome_da_funcao(parametros):
+#         # instrução1
+#         # instrução2
+#         # ...
+#         # return valor (opcional)
 
-def calcular_imposto(valor):
-    if valor <= 1000:
-        imposto = valor * 0.1
-    elif valor <= 2000:
-        imposto = valor * 0.13
-    else:
-        imposto = valor * 0.2
-
-    return imposto
-
-preço_produto1 = 2500
-preçoproduto2 = 3500
-
-imposto_produto1 = calcular_imposto(preço_produto1)
-imposto_produto2 = calcular_imposto(preçoproduto2)
-
-print(imposto_produto1)
-print(imposto_produto2)
+# ------------------------------------------
 
 
 
-# # Def para Cadastrar Produtos
+# def calcular_imposto(valor):
+#     if valor <= 1000:
+#         imposto = valor * 0.1
+#     elif valor <= 2000:
+#         imposto = valor * 0.13
+#     else:
+#         imposto = valor * 0.2
+
+#     return imposto
+
+# preço_produto1 = 2500
+# preçoproduto2 = 3500
+
+# imposto_produto1 = calcular_imposto(preço_produto1)
+# imposto_produto2 = calcular_imposto(preçoproduto2)
+
+# print(imposto_produto1)
+# print(imposto_produto2)
+
+# ------------------------------------------
+
+
+
+
+
+# Def para Cadastrar Produtos:
 
 # produtos = ["iphone", "ipad", "ipod"]
 # novo_produto = input("Digite o produto: ").lower()
@@ -55,3 +63,31 @@ print(imposto_produto2)
 
 
 # cadastro_produtos()
+
+
+# ------------------------------------------
+
+
+
+
+
+preços = [1500, 200, 800, 3000, 400]
+novo_preço = int(input("Digite o valor do produto: "))
+
+
+def cadastro_produtos():
+
+    if novo_preço in preços:
+        print(f"{novo_preço} já está incluso na lista!")
+
+    else:
+        incluir = input("Deseja adicionar este valor a lista? Sim ou Não: ").lower()
+        if incluir == "sim":
+            print("Valor cadastrado com sucesso!")
+            preços.append(novo_preço)
+            print(preços)
+
+        else:
+            print("Ok!")
+
+cadastro_produtos()
