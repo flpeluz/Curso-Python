@@ -28,3 +28,30 @@ imposto_produto2 = calcular_imposto(preçoproduto2)
 
 print(imposto_produto1)
 print(imposto_produto2)
+
+
+
+# # Def para Cadastrar Produtos
+
+# produtos = ["iphone", "ipad", "ipod"]
+# novo_produto = input("Digite o produto: ").lower()
+
+
+# def cadastro_produtos():
+
+#     if novo_produto in produtos:
+#         print("Produto já cadastrado!")
+
+#     else:
+#         print("Produto não cadastrado!\n")
+#         cadastro = input("Deseja adicionar este produto a lista? Sim ou Não: ").lower()
+#         if cadastro == "sim":
+#             print("Produto cadastrado com sucesso!")
+#             produtos.append(novo_produto)
+#             print(produtos)
+
+#         else:
+#             print("ok!")
+
+
+# cadastro_produtos()
