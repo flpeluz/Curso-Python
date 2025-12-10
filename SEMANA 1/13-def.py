@@ -69,8 +69,6 @@
 
 
 
-
-
 preços = [1500, 200, 800, 3000, 400]
 novo_preço = int(input("Digite o valor do produto: "))
 
